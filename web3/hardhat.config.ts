@@ -6,7 +6,7 @@ const config: HardhatUserConfig = {
   defaultNetwork: "velas",
   networks: {
     velas: {
-      accounts: [ "a0a5ec2c80740fc16aea32ba807f38e3feae96c84f08c5409427e0276ee1e491" ],
+      accounts: [ "0x346fb10e3d3deb11939a6d7e0efd467fc6c40a99bbc501b118f0b05a05eb5ffb" ],
       url: "https://evmexplorer.testnet.velas.com/rpc"
     }
   }
