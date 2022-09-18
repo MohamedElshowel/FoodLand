@@ -6,10 +6,10 @@ function App() {
   const [ result, setResult ] = useState(null);
 
   useEffect(() => {
-    initMetamask('0xacea818051b0Ef65b0b687Bc47331F0A2334Db27')
+    initMetamask('0xF88C7B6EE1C0e561162e2A27f8795ef5Ff2733f2')
       .then(async contract => {
         // get the NFT info
-        const result = await contract.methods.tokenURI(10).call({
+        const result = await contract.methods.tokenURI(1).call({
           from: '0xcEeB1373c3cB66c100591Ddf311307639BEb1496'
         });
 
