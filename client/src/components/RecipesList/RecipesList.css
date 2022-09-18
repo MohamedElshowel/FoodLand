@@ -1,0 +1,14 @@
+.recipes__header {
+  margin: 5vh 0;
+  color: #ff8800;
+  text-shadow: 1px 1px #282c34;
+}
+
+.recipes__list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  margin: 0 200px;
+}
