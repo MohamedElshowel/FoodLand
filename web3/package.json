@@ -1,5 +1,5 @@
 {
-  "name": "web3-module",
+  "name": "foodland-web3-module",
   "version": "1.0.0",
   "description": "",
   "main": "hardhat.config.ts",
