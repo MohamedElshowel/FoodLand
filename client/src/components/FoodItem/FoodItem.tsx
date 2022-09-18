@@ -2,7 +2,7 @@ import React from 'react';
 import "./FoodItem.css";
 
 interface FootItemProps extends IFoodItem {
-  onClickHandler: () => void;
+  onClickHandler?: () => void;
 }
 
 export default function FoodItem({ title, imageUrl, onClickHandler }: FootItemProps) {
