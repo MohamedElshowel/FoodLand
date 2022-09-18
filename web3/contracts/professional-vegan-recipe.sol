@@ -189,7 +189,7 @@ contract ProfessionalVeganRecipe is ERC721, ERC721Enumerable, Ownable {
         bytes memory dataURI = abi.encodePacked(
             '{',
                 '"name": "', attributes[tokenId].name, '",',
-                '"svgBase64": "', getSvg(tokenId), '",',
+                '"svgString": "', getSvg(tokenId), '",',
                 '"mainIngredient": "', attributes[tokenId].main_ingredient, '",',
                 '"createdBy": "', attributes[tokenId].created_by, '",',
                 '"auditId": "', attributes[tokenId].audit_id, '"'
