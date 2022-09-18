@@ -1,0 +1,35 @@
+.recipe-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.recipe-details__header {
+  margin: 5vh 0;
+  color: #ff8800;
+  text-shadow: 1px 1px #282c34;
+}
+
+.recipe-details__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.recipe-details__sub-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.recipe-details__sub-section li {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.verified-icon {
+  margin-top: 10px;
+}

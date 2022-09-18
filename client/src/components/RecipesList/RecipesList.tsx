@@ -9,7 +9,7 @@ export default function RecipesList() {
   const recipes: IFoodItem[] = [
     {
       title: "Brown Rice",
-      imageUrl: "https://foodandnutrition.org/wp-content/uploads/big-bowl-vegetables-1047798504-1-780x520.jpg",
+      imageUrl: "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcf-images.us-east-1.prod.boltdns.net%2Fv1%2Fstatic%2F1033249144001%2Fd702244e-459f-41ac-a4d4-c759b9fea726%2F4dcf4bcd-e8ef-4571-b8be-2199f6b3eb7f%2F1280x720%2Fmatch%2Fimage.jpg",
     },
     {
       title: "Pistachios",
