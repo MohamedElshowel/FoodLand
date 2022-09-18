@@ -16,9 +16,8 @@ export default function RecipeDetails() {
     );
   }, []);
 
-  const decodeJSONBase64 = (encodedJSON) => {
-    const encodedStrBase64 = JSON.stringify(encodedJSON);
-    const encodedString = encodedStrBase64.substring(29);
+  const decodeJSONBase64 = (encodedBase24String: string) => {
+    const encodedString = encodedBase24String.substring(29);
     const decodedString = window.atob(encodedString); // 29 = length of `"data:application/json;base64,"`
     const decodedJSON = JSON.parse(decodedString);
     setResult(decodedJSON);
